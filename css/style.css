@@ -9,24 +9,24 @@
 
 .container-maior {
     font-family: 'Titillium Web', sans-serif;
-    background-color: #21084D;
+    background: linear-gradient(180deg, #260a58  0%, #090029 100%);
     color: #ffffff;
-}
-
-.container-dados {
     display: flex;
-    justify-content: center
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .cabecalho {
+    margin-top: 90px;
     background-color: #6C23C0;
-    width: 1250px;
+    width: 1200px;
     height: 180px;
     border-radius: 20px;
-    margin-top: 90px;
-    display: flex;
-    flex-direction: row;
-    gap: 35px;
+    display: grid;
+    grid-template-columns: 50% 6% 44%;
+    
 }
 
 .dados-principais {
@@ -67,3 +67,89 @@
     font-weight: 600;
     color: #77FFAA;
 }
+
+.divisao {
+    border-left: 2px solid rgba(128, 128, 128, 0.7);
+}
+
+.dados-complementares {
+    display: flex;
+    gap: 70px;
+}
+
+.lista-dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+span {
+    color: #77FFAA;
+    font-size: 14px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn-edit {
+    margin: 20px;
+}
+
+.img-edit {
+    width: 40px;
+}
+
+.container-cronograma {
+    margin-top: 35px;
+    width: 1200px;
+    height: 550px;
+    border-radius: 20px;
+    background-color: #1D153A;
+}
+
+.cabecalho-principal {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.titulo-container {
+    margin: 15px;
+}
+
+.sub-titulo {
+    color: #77FFAA;
+    font-size: 12px;
+}
+
+.titulo {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.btn-remover {
+    background-color: red;
+    width: 200px;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-adicionar {
+    background-color: #6C23C0;
+    width: 200px;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+}
+
+.remover, .adicionar {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Titillium Web', sans-serif;;
+}
+

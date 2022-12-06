@@ -9,7 +9,6 @@
         <title>CRONOGRAMA</title>
     </head>
     <body class="container-maior">
-        <div class="container-dados">
             <header class="cabecalho">
                     <section class="dados-principais">
                         <div class="moldura">
@@ -17,36 +16,50 @@
                         </div>
                 
                         <div class="concatenar">
-                            <h2 class="comprimentos">Olá, Gabriel</h2>
+                            <h2 class="comprimentos">Olá, Gabriel!</h2>
                             <h3 class="objetivo-principal">Analise e desenvolvimento de software</h3>
                         </div>                
                     </section>
+                    <span class="divisao"></span>
                     <aside class="dados-complementares">
-                        <ul>
-                            <span>E-MAIL</span>
-                            <li class="e-mail">paulogabriel.bsm@gmail.com</li>
-                            <span>LINGUA ESTRANGEIRA</span>
-                            <li class="objetivo-idioma">Inglês</li>
-                            <span>OBJETIVO</span>
-                            <li class="objetivo-faculdade">XPE</li>
-                            <span>NOTA DE CORTE</span>
-                            <li class="objetivo-nota">800</li>
+                        <ul class="lista-dados">
+                            <li class="e-mail">
+                                <span>E-MAIL</span>
+                                <p>paulogabriel.bsm@gmail.com</p>
+                            </li>
+                            
+                            <li class="objetivo-idioma">
+                                <span>LINGUA ESTRANGEIRA</span>
+                                <p>Inglês</p>
+                            </li>
                         </ul>
+                        <ul class="lista-dados">    
+                            <li class="objetivo-faculdade">
+                                <span>OBJETIVO</span>
+                                <p>XPE</p>
+                            </li>
+                            
+                            <li class="objetivo-nota">
+                                <span>PONTUAÇÃO</span>
+                                <p>800</p>
+                            </li>
+                        </ul>
+                        <a class="btn-edit">
+                            <img class="img-edit" src="img/edit.png"></svg>
+                        </a>
                     </aside>
-                    <button class="btn-edit">
-                        <svg class="svg-edit"></svg>
-                    </button>
+                    
             </header>
-        </div>
-        <div class="container-cronograma">
-            <main class="container-principal">
-                <div class="titulo-container">
-                    <h3 class="sub-titulo">ORGANIZE DA MELHOR FORMA</h3>
-                    <h2 class="titulo">Cronograma semanal</h2>
-                </div>
-                <div>
-                    <button class="btn-remover">Remover</button>
-                    <button class="btn-adicionar">Adicionar</button>
+            <main class="container-cronograma">
+                <div class="cabecalho-principal">
+                    <div class="titulo-container">
+                        <h3 class="sub-titulo">ORGANIZE DA MELHOR FORMA</h3>
+                        <h2 class="titulo">Cronograma semanal</h2>
+                    </div>
+                    <div>
+                        <button class="btn-remover"><span class="remover">REMOVER TÓPICOS</span></button>
+                        <button class="btn-adicionar"><span class="adicionar">ADICIONAR TÓPICOS</span></button>
+                    </div>
                 </div>
                 <div>
                     <ul class="semana">
@@ -109,6 +122,5 @@
                     </ul>
                 </div>
             </main>
-        </div>
     </body>
 </html>
