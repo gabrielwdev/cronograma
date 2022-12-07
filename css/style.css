@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 1000px;
 }
 
 .cabecalho {
@@ -46,11 +46,17 @@
 
 }
 
+.icone-moldura {
+    width: 100px;
+    margin: 135px;
+    position: absolute;
+}
+
 .foto {
     margin: 10px 10px;
     width: 200px;
     border-radius: 100px;
-    border: #6C23C0 solid 9px;
+    border: rgb(108, 35, 192) solid 9px;
 }
 
 .concatenar {
@@ -96,6 +102,7 @@ p {
 
 .btn-edit {
     margin: 20px;
+    cursor: pointer;
 }
 
 .img-edit {
@@ -105,7 +112,7 @@ p {
 .container-cronograma {
     margin-top: 35px;
     width: 1200px;
-    height: 550px;
+    height: 620px;
     border-radius: 20px;
     background-color: #1D153A;
 }
@@ -130,12 +137,23 @@ p {
     font-weight: 700;
 }
 
+.container-btn {
+    display: flex;
+    gap: 8px;
+}
+
 .btn-remover {
     background-color: red;
     width: 200px;
     height: 55px;
     border-radius: 10px;
     border: none;
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+
+.btn-remover:hover {
+    background-color: #830101;
 }
 
 .btn-adicionar {
@@ -144,6 +162,12 @@ p {
     height: 55px;
     border-radius: 10px;
     border: none;
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+
+.btn-adicionar:hover {
+    background-color: #322463;
 }
 
 .remover, .adicionar {
@@ -153,3 +177,33 @@ p {
     font-family: 'Titillium Web', sans-serif;;
 }
 
+.semana {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 70px;
+}
+
+.container-dia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.dia {
+    font-size: 15px;
+}
+
+.programacao {
+    width: 150px;
+    height: 400px;
+    border: gray 2px dashed;
+    border-radius: 10px;
+}
+
+a.creditos {
+    font-size: 10px;
+    color: #77FFAA;
+    text-decoration: none;
+    margin: 30px;
+}
