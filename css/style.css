@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1000px;
+    height: 913px;
 }
 
 .cabecalho {
@@ -36,10 +36,10 @@
 }
 
 .moldura {
-    margin-top: -50px;
-    margin-left: 35px;
-    width: 220px;
-    height: 220px;
+    margin-top: -40px;
+    margin-left: 10px;
+    width: 195px;
+    height: 195px;
     border-radius: 50%;
     background: rgb(23,122,250);
     background: linear-gradient(100deg, rgba(23,122,250,1) 0%, rgba(3,237,210,1) 100%);
@@ -48,15 +48,15 @@
 
 .icone-moldura {
     width: 100px;
-    margin: 135px;
+    margin: 120px;
     position: absolute;
 }
 
 .foto {
-    margin: 10px 10px;
-    width: 200px;
-    border-radius: 100px;
-    border: rgb(108, 35, 192) solid 9px;
+    margin: 8px;
+    width: 180px;
+    border-radius: 50%;
+    border: rgb(108, 35, 192) solid 7px;
 }
 
 .concatenar {
@@ -112,7 +112,7 @@ p {
 .container-cronograma {
     margin-top: 35px;
     width: 1200px;
-    height: 620px;
+    height: 520px;
     border-radius: 20px;
     background-color: #1D153A;
 }
@@ -196,9 +196,13 @@ p {
 
 .programacao {
     width: 150px;
-    height: 400px;
+    height: 300px;
     border: gray 2px dashed;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
 }
 
 a.creditos {
