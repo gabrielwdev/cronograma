@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600;700&display=swap');
+
+* {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.modal {
+    display: none;
+    border-radius: 10px;
+    position: fixed;
+    width: 510px;
+    height: 385px;
+    background-color: #090029;
+}
+
+.fundo-modal {
+    display: none;
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario, .titulo-modal {
+    padding: 20px 40px; 
+    margin-bottom: -20px;
+}
+
+.titulo-modal {
+    font-size: 18px;
+}
+
+.container-caracteristica {
+    padding: 0 10px;
+    border-radius: 15px;
+    border: solid 2px #3E3F5E;
+
+}
+
+.container-caracteristica:active {
+    border: solid 2px #512485;
+}
+
+.caracteristicas-diciplina {
+    padding: 0 15px 15px 15px;
+    background-color: #090029;
+    width: 100%;
+    height: 100%;
+    color: white;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}  
+
+.caracteristicas-diciplina:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.legenda {
+    margin-left: 10px;
+    font-size: 13px;
+    border: 5px solid #090029;
+}
+
+.inserir-diciplina {
+    background-color: #03BB85;
+    color: white;
+    height: 50px;
+    border-radius: 9px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.btn-fechar {
+    border-radius: 50%;
+    background-color: #241b42;
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    right: 395px;
+    top: 275px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.6s;
+}
+
+.btn-fechar:hover {
+    background-color: #2c2050;
+}
+
+.bi {
+    color: white;
+}
