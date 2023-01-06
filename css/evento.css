@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.evento {
+    width: 100px;
+    height: 50px;
+}
+
+.caracteristicas-evento {
+    color: #ffffff;
+    background-color: #721b1b;
+}

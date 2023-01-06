@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/modal.css">
+        <link rel="stylesheet" href="css/evento.css">
         <link rel="icon" href="img/verificado.png">
         <title>CRONOGRAMA</title>
     </head>
@@ -52,10 +53,12 @@
                     </aside>
                     
             </header>
+
+                <!-- MODAL -->
                 <div class="fundo-modal"></div>
                 <div class="modal">
                         <h2 class="titulo-modal">+ Adicionar disciplina</h2>
-                        <form class="formulario">
+                        <form method="get" class="formulario">
                             <fieldset class="container-caracteristica">
                                 <legend class="legenda">Disciplina</legend>
                                 <input id="nome" class="caracteristicas-diciplina" placeholder="Digite..." required id="disciplina" type="text">
@@ -75,7 +78,7 @@
                                 <legend class="legenda">Cor</legend>
                                 <input id="palheta" class="caracteristicas-diciplina" type="color">
                             </fieldset>                            
-                            <button class="inserir-diciplina">CADASTRAR DISCIPLINA!</button>
+                            <button id="inserir" class="inserir-diciplina">CADASTRAR DISCIPLINA!</button>
                             <button class="btn-fechar">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
                                     <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
@@ -83,6 +86,9 @@
                             </button>
                         </form>
                 </div>
+                <!-- MODAL -->
+
+
             <main class="container-cronograma">
                 <div class="cabecalho-principal">
                     <div class="titulo-container">

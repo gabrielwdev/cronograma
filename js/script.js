@@ -14,12 +14,9 @@ btnAdicionar.addEventListener("click", function() {
 }
 )
 
-let disciplina = document.getElementById("nome")
-let dia = document.getElementById("momento")
-let cor = document.getElementById("cor")
+let inserir = document.getElementById("inserir")
+inserir.addEventListener("click", function() {
+    console.log("check")
+    
+})
 
-{
-    nome: disciplina
-    momento: dia
-    palheta: cor
-}
